@@ -1,0 +1,71 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(120deg, #044a1d, #a5ffae);
+}
+
+form {
+  width: 350px;
+  background: rgb(157, 220, 220);
+  height: 580px;
+  padding: 75px 50px;
+  border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 45px;
+  color: rgb(4, 116, 0);
+  font-size: 40px;
+}
+
+.textBoxdiv {
+  position: relative;
+  margin-bottom: 35px;
+  border-bottom: 2px solid white;
+}
+
+.textBoxdiv input {
+  background: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  color: black;
+  height: 30px;
+  font-size: 20px;
+}
+
+.loginBtn {
+  height: 45px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: linear-gradient(120deg, #1f9414, #aaff65);
+  background-size: 200%;
+  transition: 0.5s;
+  color: white;
+  font-size: 16px;
+}
+
+.loginBtn:hover {
+  background-position: right;
+  font-size: 17px;
+}
+
+.success {
+  color: rgb(25, 138, 10);
+  margin-top: 45px;
+  text-align: center;
+}
