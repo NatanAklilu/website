@@ -4,7 +4,7 @@
   <object 
     data="Media/Natan_Aklilu_Resume.pdf" 
     type="application/pdf"
-    width="1300px"
+    width="80%"
     height="700px">
   </object>
 </div>

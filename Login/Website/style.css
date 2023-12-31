@@ -16,7 +16,7 @@ body {
 #header {
   margin: 0px;
   padding: 0px;
-  height: 100px;
+  height: 75px;
   display: flex;
   align-items: left;
 }
@@ -29,7 +29,7 @@ body {
 #logo img {
   margin: 0px;
   padding: 0px;
-  height: 100px;
+  height: 75px;
 }
 
 #nav {
@@ -38,7 +38,7 @@ body {
   margin-left: auto;
   margin-right: 40px;
   padding: 0px;
-  font-size: 30px;
+  font-size: 25px;
   align-items: center;
 }
 
@@ -50,14 +50,14 @@ body {
 
 #nav li {
   margin: 0px;
-  padding: 10px;
+  padding: 0px;
   display: inline;
   text-align: center;
 }
 
 #nav li a {
   margin: 0px;
-  padding: 10px;
+  padding: 8px;
   color: black;
   text-decoration: none;
 
@@ -91,7 +91,7 @@ body {
 #main p {
   margin: 0px;
   padding: 0px;
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 15px;
   margin-bottom: 15px;
 }
@@ -100,6 +100,7 @@ body {
   margin: 0px;
   padding: 0px;
   float: right;
+  display: flex;
 }
 
 #sidebar ul {
@@ -172,7 +173,7 @@ body {
 
 #footer {
   margin: 0px;
-  padding: 50px 0px;
+  padding: 30px 0px;
   color: #000;
   clear: both;
   text-align: center;
@@ -197,10 +198,32 @@ body {
 }
 
 #image img {
-  display: block;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
   padding-top: 30px;
+}
+
+#container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 5fr 3fr;
+  column-gap: 5px;
+}
+
+#container img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#container h1 {
+  font-size: 200%;
+  text-align: center;
+}
+
+#container p {
+  font-size: 150%;
+  text-align: center;
 }
 
 #pdf object {
@@ -212,14 +235,12 @@ body {
 
 .textBoxdiv {
   position: relative;
-  display: inline-block;
+  display: inline;
   height: 20px;
   width: auto;
-  margin-bottom: auto;
-  margin-top: auto;
   background-color: #bfe5ff;
   border-radius: 10px;
-  padding: 5px;
+  padding-top: 5px;
 }
 
 .textBoxdiv input {
@@ -228,6 +249,7 @@ body {
   outline: none;
   color: black;
   font-size: 40px;
+  margin-bottom: 10px;
 }
 
 .searchBtn {

@@ -1,5 +1,5 @@
 <h3>About Me</h3>
-<p>Hello! My name is Natan Aklilu and I am currently a third-year student 
+<p>Hey there! My name is Natan Aklilu and I am currently a third-year student 
   at Cornell University studying Computer Science. I am an aspiring 
   software engineer and am currently a TA for one of Cornell's
   core computer science courses, CS 3410: Computer System Organization and Programming. 
@@ -12,6 +12,6 @@
   to gain any work experience in the field to continue my journey. </p>
 <div id=image>
   <img src="Media/Natan_Aklilu_Headshot"
-  width="600"
+  width="500"
   height="auto">
 </div>

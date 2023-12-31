@@ -20,7 +20,7 @@
       <div class="signup">
         Don't have an account ?
         <br>
-        <a href="#">Sign up<a>
+        <a href="signUp.php">Sign up<a>
       <div>
     </form>
   </body>

@@ -2,26 +2,28 @@
 <html>
 
   <head>
-    <title>Login</title>
+    <title>Create Account</title>
     <link rel="stylesheet" href="main.css">
 
   <head>
 
   <body>
-    <form method="post" action="loginBlue.php">
+    <form method="post" action="signup.php">
       <h1>Login</h1>
+      <b>Create username:</b>
       <div class="textBoxdiv">
         <input type="text" placeholder="Username" name="username">
       </div>
+      <b>Create password:</b>
       <div class=textBoxdiv>
         <input type="password" placeholder="Password" name="password">
       </div>
-      <input type="submit" value="Login" class="loginBtn" name="login_Btn">
-      <div class="signup">
-        Don't have an account ?
-        <br>
-        <a href="#">Sign up<a>
-      <div>
+      <b>Confirm password:</b>
+      &nbsp;
+      <div class=textBoxdiv>
+        <input type="password" placeholder="Retype password" name="password">
+      </div>
+      <input type="submit" value="Create" class="loginBtn" name="login_Btn">
     </form>
   </body>
 

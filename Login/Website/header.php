@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Natan Aklilu Website</title>
     <link rel="stylesheet" href="style.css">
     <script>
     </script>
