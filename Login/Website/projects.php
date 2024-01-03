@@ -1,7 +1,7 @@
 <h3>Projects</h3>
   <p>Here is where I am going to describe some of my work including both academic, 
   internship, and personal projects. 
-  Here is a link to my GitHub to access my projects: 
+  Here is a link to my GitHub to access my projects (including this website!): 
   <a href="https://github.com/NatanAklilu">NatanAklilu </a></p>
 
   <div id="image">
